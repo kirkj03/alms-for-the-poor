@@ -15,6 +15,7 @@ Same styling as PFP/banner. Use for:
 - `alms-hours/`
 - `confession-booth/`
 - `empty-bowl-countdown/`
+- `join-parish/`
 - `reverse-shill/`
 
 ### `03-shitpost-spice/` — replies & chaos only

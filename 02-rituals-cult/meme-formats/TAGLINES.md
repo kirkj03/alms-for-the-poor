@@ -78,3 +78,26 @@ Alt:
 ```
 correct answer: draw the bowl
 ```
+
+## join-the-parish.png (`../join-parish/`)
+```
+join the parish
+
+bowl stays out
+$ALMS
+```
+Alt:
+```
+plenty of bowls
+pick one up
+
+bowl stays out
+$ALMS
+```
+Alt:
+```
+membership is free
+dignity optional
+
+bowl stays out
+```
