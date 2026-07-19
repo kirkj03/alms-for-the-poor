@@ -9,9 +9,10 @@ Prefer: stickers, gm, alms?, tip the bowl (memes count), join the parish.
 
 ---
 
-## 1) Main post
+## 1) Main post / pin
 
-Image: `10-join-the-parish.png`
+Image (recommended): `00-pin-rubbing-paws.png`  
+Alt: `00-pin-rubbing-paws-alt.png` or `10-join-the-parish.png`
 
 ```
 free parish pack
@@ -24,6 +25,7 @@ save what you want
 use them wherever
 
 bowl stays out
+$ALMS
 ```
 
 ---
