@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALMS Asset Canvas — bowl stays out</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0a0b;
+      --bg-elev: #141416;
+      --bg-card: #1a1a1d;
+      --border: #2a2a2e;
+      --text: #f2efe8;
+      --muted: #9a958c;
+      --orange: #e07a2f;
+      --orange-dim: #b35f22;
+      --green: #3dcf6e;
+      --cream: #f4e8d0;
+      --shadow: 0 12px 40px rgba(0,0,0,.45);
+      --radius: 10px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(224,122,47,.12), transparent 55%),
+        radial-gradient(900px 500px at 90% 0%, rgba(61,207,110,.06), transparent 50%),
+        var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid var(--border);
+      background: rgba(10,10,11,.92);
+      backdrop-filter: blur(10px);
+      padding: 1.25rem 1rem 2rem;
+    }
+
+    .brand {
+      font-family: Syne, system-ui, sans-serif;
+      font-weight: 800;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin: 0 0 .35rem;
+    }
+    .brand span { color: var(--orange); }
+    .motto {
+      color: var(--muted);
+      font-size: .72rem;
+      margin: 0 0 1.25rem;
+    }
+
+    .search {
+      width: 100%;
+      background: var(--bg-elev);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 8px;
+      padding: .65rem .75rem;
+      font: inherit;
+      font-size: .8rem;
+      margin-bottom: 1rem;
+    }
+    .search:focus {
+      outline: 2px solid var(--orange-dim);
+      border-color: var(--orange);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-bottom: 1.25rem;
+    }
+    .chip {
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      padding: .3rem .65rem;
+      font: inherit;
+      font-size: .68rem;
+      cursor: pointer;
+    }
+    .chip.active, .chip:hover {
+      color: var(--cream);
+      border-color: var(--orange-dim);
+      background: rgba(224,122,47,.12);
+    }
+
+    nav a {
+      display: block;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .75rem;
+      padding: .4rem .5rem;
+      border-radius: 6px;
+      margin-bottom: .15rem;
+    }
+    nav a:hover, nav a.active {
+      color: var(--text);
+      background: var(--bg-elev);
+    }
+    nav .count {
+      float: right;
+      opacity: .55;
+    }
+
+    .stats {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: .68rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    main { padding: 1.5rem 1.75rem 4rem; }
+
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    .topbar h1 {
+      font-family: Syne, system-ui, sans-serif;
+      font-size: 1.6rem;
+      margin: 0;
+      letter-spacing: -0.03em;
+    }
+    .topbar p {
+      margin: .25rem 0 0;
+      color: var(--muted);
+      font-size: .78rem;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text);
+      border-radius: 8px;
+      padding: .55rem .8rem;
+      font: inherit;
+      font-size: .72rem;
+      cursor: pointer;
+    }
+    .btn:hover { border-color: var(--orange-dim); }
+    .btn.primary {
+      background: linear-gradient(180deg, #e8893a, var(--orange));
+      border-color: transparent;
+      color: #1a0f08;
+      font-weight: 600;
+    }
+
+    section.block {
+      margin-bottom: 2.5rem;
+      scroll-margin-top: 1rem;
+    }
+    section.block > header {
+      display: flex;
+      align-items: baseline;
+      gap: .75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: .65rem;
+    }
+    section.block h2 {
+      font-family: Syne, system-ui, sans-serif;
+      font-size: 1.15rem;
+      margin: 0;
+    }
+    section.block .sub {
+      color: var(--muted);
+      font-size: .72rem;
+    }
+
+    .global-lines {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: .65rem;
+      margin-bottom: 2rem;
+    }
+    .line-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: .75rem;
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+    }
+    .line-card pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font-size: .78rem;
+      line-height: 1.4;
+      color: var(--cream);
+      flex: 1;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+    .card.preferred {
+      border-color: rgba(224,122,47,.55);
+      box-shadow: 0 0 0 1px rgba(224,122,47,.2), var(--shadow);
+    }
+    .thumb {
+      background: #000;
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-in;
+      position: relative;
+    }
+    .thumb.wide { aspect-ratio: 3 / 1; }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .badge {
+      position: absolute;
+      top: .5rem;
+      left: .5rem;
+      background: var(--orange);
+      color: #1a0f08;
+      font-size: .62rem;
+      font-weight: 600;
+      padding: .2rem .45rem;
+      border-radius: 999px;
+    }
+    .meta {
+      padding: .85rem;
+      display: flex;
+      flex-direction: column;
+      gap: .65rem;
+      flex: 1;
+    }
+    .fname {
+      font-size: .78rem;
+      font-weight: 600;
+      word-break: break-all;
+    }
+    .path {
+      font-size: .65rem;
+      color: var(--muted);
+      word-break: break-all;
+    }
+    .note {
+      font-size: .68rem;
+      color: var(--orange);
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+    }
+    .captions {
+      display: flex;
+      flex-direction: column;
+      gap: .45rem;
+      margin-top: .25rem;
+    }
+    .cap {
+      background: var(--bg-elev);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: .55rem .6rem;
+    }
+    .cap pre {
+      margin: 0 0 .45rem;
+      white-space: pre-wrap;
+      font-size: .72rem;
+      line-height: 1.35;
+      color: var(--cream);
+    }
+    .cap .actions { justify-content: flex-end; }
+
+    .toast {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      background: var(--green);
+      color: #062012;
+      padding: .7rem 1rem;
+      border-radius: 999px;
+      font-size: .75rem;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: .2s ease;
+      pointer-events: none;
+      z-index: 50;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.88);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      z-index: 40;
+      cursor: zoom-out;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: min(1100px, 100%);
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: .85rem;
+      padding: 2rem 0;
+    }
+
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      aside {
+        position: relative;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+      }
+      nav { display: flex; flex-wrap: wrap; gap: .25rem; }
+      nav a { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <p class="brand">$ALMS <span>canvas</span></p>
+      <p class="motto">bowl stays out · dignity optional</p>
+      <input class="search" id="search" type="search" placeholder="Filter assets / captions…" />
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="ship">Ship / preferred</button>
+        <button class="chip" data-filter="captions">Has captions</button>
+        <button class="chip" data-filter="replies">Reply spice</button>
+      </div>
+      <nav id="nav"></nav>
+      <div class="stats" id="stats">Loading assets…</div>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h1>Asset canvas</h1>
+          <p>Click an image to enlarge. Copy path or caption in one tap.</p>
+        </div>
+        <div class="toolbar">
+          <button class="btn" id="expandAll">Expand captions</button>
+          <button class="btn primary" id="copyMotto">Copy motto</button>
+        </div>
+      </div>
+
+      <section class="block" id="global">
+        <header>
+          <h2>Always-ready lines</h2>
+          <span class="sub">no image needed</span>
+        </header>
+        <div class="global-lines" id="globalLines"></div>
+      </section>
+
+      <div id="sections"></div>
+      <p class="empty" id="empty" hidden>No assets match that filter.</p>
+    </main>
+  </div>
+
+  <div class="lightbox" id="lightbox"><img alt="" /></div>
+  <div class="toast" id="toast">Copied</div>
+
+  <script>
+    const SECTION_META = {
+      "01-identity": { title: "Identity", blurb: "PFP / banner — ship primary only" },
+      "02-rituals-cult": { title: "Rituals (cult)", blurb: "Official timeline posts" },
+      "03-shitpost-spice": { title: "Shitpost spice", blurb: "Replies & chaos only" },
+      "04-archive-concepts": { title: "Archive", blurb: "Reference / lore only" },
+    };
+
+    const PREFERRED = new Set([
+      "01-identity/primary/pfp-cult-sticker.png",
+      "01-identity/primary/banner-3x1-cult.png",
+      "02-rituals-cult/join-parish/join-the-parish-scene.png",
+      "02-rituals-cult/empty-bowl-countdown/countdown-peaceful-path.png",
+      "02-rituals-cult/meme-formats/unbothered-fight-with-text.png",
+      "02-rituals-cult/meme-formats/serene-vs-proper-peaceful.png",
+      "02-rituals-cult/meme-formats/nobody-me-v3.png",
+      "02-rituals-cult/meme-formats/how-it-started-going-v3.png",
+      "02-rituals-cult/meme-formats/trade-offer-v3.png",
+      "02-rituals-cult/meme-formats/locked-in.png",
+      "02-rituals-cult/meme-formats/sleeping-dream-bowl-v2.png",
+      "02-rituals-cult/reverse-shill/dont-buy-draw-the-bowl.png",
+      "02-rituals-cult/morning/morning-plain-alms-text.png",
+      "03-shitpost-spice/replies/gm-clean.png",
+      "03-shitpost-spice/replies/bowl-only.png",
+    ]);
+
+    let inventory = [];
+    let captions = {};
+    let filterMode = "all";
+    let query = "";
+
+    const $ = (id) => document.getElementById(id);
+    const toast = (msg = "Copied") => {
+      const el = $("toast");
+      el.textContent = msg;
+      el.classList.add("show");
+      clearTimeout(toast._t);
+      toast._t = setTimeout(() => el.classList.remove("show"), 1200);
+    };
+
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+        toast("Copied");
+      } catch {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        ta.remove();
+        toast("Copied");
+      }
+    }
+
+    function btn(label, onClick, cls = "btn") {
+      const b = document.createElement("button");
+      b.className = cls;
+      b.textContent = label;
+      b.addEventListener("click", (e) => {
+        e.stopPropagation();
+        onClick();
+      });
+      return b;
+    }
+
+    function matches(item) {
+      const meta = captions[item.path] || {};
+      const hay = [
+        item.path,
+        item.name,
+        meta.note || "",
+        ...(meta.captions || []),
+      ].join("\n").toLowerCase();
+
+      if (query && !hay.includes(query)) return false;
+      if (filterMode === "ship" && !PREFERRED.has(item.path) && !(meta.note || "").toLowerCase().includes("preferred") && !(meta.note || "").toLowerCase().includes("ship")) return false;
+      if (filterMode === "captions" && !(meta.captions && meta.captions.length)) return false;
+      if (filterMode === "replies" && !item.path.includes("03-shitpost-spice")) return false;
+      return true;
+    }
+
+    function renderGlobal() {
+      const box = $("globalLines");
+      box.innerHTML = "";
+      const lines = (captions._global && captions._global.captions) || [];
+      for (const line of lines) {
+        const card = document.createElement("div");
+        card.className = "line-card";
+        const pre = document.createElement("pre");
+        pre.textContent = line;
+        card.appendChild(pre);
+        card.appendChild(btn("Copy", () => copyText(line), "btn primary"));
+        box.appendChild(card);
+      }
+    }
+
+    function render() {
+      const sectionsEl = $("sections");
+      const nav = $("nav");
+      sectionsEl.innerHTML = "";
+      nav.innerHTML = "";
+
+      const grouped = {};
+      let visible = 0;
+      for (const item of inventory) {
+        if (!matches(item)) continue;
+        visible++;
+        (grouped[item.section] ||= []).push(item);
+      }
+
+      $("empty").hidden = visible > 0;
+      $("stats").innerHTML = `${visible} shown · ${inventory.length} total<br/>${Object.keys(captions).filter(k => k !== "_global").length} with caption notes`;
+
+      for (const [section, items] of Object.entries(grouped)) {
+        const meta = SECTION_META[section] || { title: section, blurb: "" };
+        const a = document.createElement("a");
+        a.href = `#sec-${section}`;
+        a.innerHTML = `${meta.title}<span class="count">${items.length}</span>`;
+        nav.appendChild(a);
+
+        const sec = document.createElement("section");
+        sec.className = "block";
+        sec.id = `sec-${section}`;
+        sec.innerHTML = `<header><h2>${meta.title}</h2><span class="sub">${meta.blurb}</span></header>`;
+        const grid = document.createElement("div");
+        grid.className = "grid";
+
+        // subgroup by folder for rituals
+        const bySub = {};
+        for (const item of items) {
+          const key = item.path.split("/").slice(0, -1).join("/") || section;
+          (bySub[key] ||= []).push(item);
+        }
+
+        for (const [sub, subItems] of Object.entries(bySub)) {
+          if (Object.keys(bySub).length > 1) {
+            const h = document.createElement("div");
+            h.style.gridColumn = "1 / -1";
+            h.style.margin = ".5rem 0 0";
+            h.style.color = "var(--muted)";
+            h.style.fontSize = ".72rem";
+            h.textContent = sub;
+            grid.appendChild(h);
+          }
+
+          for (const item of subItems) {
+            grid.appendChild(cardFor(item));
+          }
+        }
+
+        sec.appendChild(grid);
+        sectionsEl.appendChild(sec);
+      }
+    }
+
+    function cardFor(item) {
+      const meta = captions[item.path] || {};
+      const card = document.createElement("article");
+      card.className = "card" + (PREFERRED.has(item.path) || (meta.note || "").toLowerCase().includes("preferred") || (meta.note || "").toLowerCase().includes("ship") ? " preferred" : "");
+
+      const thumb = document.createElement("div");
+      const isBanner = item.name.includes("banner") || item.name.includes("wide") || item.name.includes("3x1");
+      thumb.className = "thumb" + (isBanner ? " wide" : "");
+      const img = document.createElement("img");
+      img.src = "../" + item.path;
+      img.alt = item.name;
+      img.loading = "lazy";
+      thumb.appendChild(img);
+      if (PREFERRED.has(item.path)) {
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = "ship";
+        thumb.appendChild(badge);
+      }
+      thumb.addEventListener("click", () => {
+        const lb = $("lightbox");
+        lb.querySelector("img").src = img.src;
+        lb.classList.add("open");
+      });
+      card.appendChild(thumb);
+
+      const metaEl = document.createElement("div");
+      metaEl.className = "meta";
+      metaEl.innerHTML = `
+        <div class="fname">${item.name}</div>
+        <div class="path">${item.path}</div>
+        ${meta.note ? `<div class="note">${meta.note}</div>` : ""}
+      `;
+
+      const actions = document.createElement("div");
+      actions.className = "actions";
+      actions.appendChild(btn("Copy path", () => copyText(item.path)));
+      actions.appendChild(btn("Copy filename", () => copyText(item.name)));
+      metaEl.appendChild(actions);
+
+      if (meta.captions && meta.captions.length) {
+        const caps = document.createElement("div");
+        caps.className = "captions";
+        meta.captions.forEach((c, i) => {
+          const wrap = document.createElement("div");
+          wrap.className = "cap";
+          const pre = document.createElement("pre");
+          pre.textContent = c;
+          wrap.appendChild(pre);
+          const row = document.createElement("div");
+          row.className = "actions";
+          row.appendChild(btn(i === 0 ? "Copy caption" : "Copy alt", () => copyText(c), "btn primary"));
+          wrap.appendChild(row);
+          caps.appendChild(wrap);
+        });
+        metaEl.appendChild(caps);
+      }
+
+      card.appendChild(metaEl);
+      return card;
+    }
+
+    async function boot() {
+      const [invRes, capRes] = await Promise.all([
+        fetch("./inventory.json"),
+        fetch("./captions.json"),
+      ]);
+      inventory = await invRes.json();
+      captions = await capRes.json();
+      renderGlobal();
+      render();
+    }
+
+    $("search").addEventListener("input", (e) => {
+      query = e.target.value.trim().toLowerCase();
+      render();
+    });
+
+    $("filters").addEventListener("click", (e) => {
+      const chip = e.target.closest(".chip");
+      if (!chip) return;
+      $("filters").querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      filterMode = chip.dataset.filter;
+      render();
+    });
+
+    $("copyMotto").addEventListener("click", () => {
+      copyText("bowl stays out\ndignity optional\n$ALMS");
+    });
+
+    $("expandAll").addEventListener("click", () => {
+      document.querySelectorAll(".captions").forEach((el) => {
+        el.style.display = "flex";
+      });
+      toast("Captions visible");
+    });
+
+    $("lightbox").addEventListener("click", () => $("lightbox").classList.remove("open"));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") $("lightbox").classList.remove("open");
+    });
+
+    boot().catch((err) => {
+      $("stats").textContent = "Failed to load inventory/captions. Serve this folder over HTTP (see README).";
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
