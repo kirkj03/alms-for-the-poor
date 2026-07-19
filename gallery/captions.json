@@ -1,20 +1,20 @@
 {
   "01-identity/primary/pfp-cult-sticker.png": {
-    "note": "Canon PFP — ship this",
+    "note": "Canon PFP \u2014 ship this",
     "captions": [
-      "bowl stays out\ndignity optional\nalms for the poor · robinhood chain"
+      "bowl stays out\ndignity optional\nalms for the poor \u00b7 robinhood chain"
     ]
   },
   "01-identity/primary/banner-3x1-cult.png": {
-    "note": "Canon 3:1 banner — ship with PFP",
+    "note": "Canon 3:1 banner \u2014 ship with PFP",
     "captions": []
   },
   "02-rituals-cult/reverse-shill/dont-buy-draw-the-bowl.png": {
     "note": "Pin / reverse shill",
     "captions": [
       "alms for the poor\nbowl stays out\ndignity optional\n$ALMS",
-      "don’t buy\ndraw the bowl\n\nbowl stays out",
-      "we don’t need volume\nwe need memes\n\nalms for the poor"
+      "don\u2019t buy\ndraw the bowl\n\nbowl stays out",
+      "we don\u2019t need volume\nwe need memes\n\nalms for the poor"
     ]
   },
   "02-rituals-cult/rebrand/new-robes-same-bowl.png": {
@@ -82,7 +82,7 @@
     ]
   },
   "02-rituals-cult/join-parish/join-the-parish.png": {
-    "note": "Older gothic-font card — skip for feed",
+    "note": "Older gothic-font card \u2014 skip for feed",
     "captions": [
       "join the parish\n\nbowl stays out\n$ALMS"
     ]
@@ -161,7 +161,7 @@
     ]
   },
   "02-rituals-cult/meme-formats/trade-offer-v3-alt.png": {
-    "note": "Sides flipped — skip",
+    "note": "Sides flipped \u2014 skip",
     "captions": []
   },
   "02-rituals-cult/meme-formats/this-is-fine.png": {
@@ -172,7 +172,7 @@
   },
   "02-rituals-cult/meme-formats/they-dont-know-bus.png": {
     "captions": [
-      "they don’t know\nthe bowl stays out\n\n$ALMS",
+      "they don\u2019t know\nthe bowl stays out\n\n$ALMS",
       "silent parish supremacy"
     ]
   },
@@ -199,7 +199,7 @@
     "captions": [
       "let them cook\n\nbowl stays out\n$ALMS",
       "king of the hill is loud\nthe bowl is quiet\n\nbowl stays out\n$ALMS",
-      "everyone fighting for #1\nwe’re just asking for alms\n\n$ALMS"
+      "everyone fighting for #1\nwe\u2019re just asking for alms\n\n$ALMS"
     ]
   },
   "02-rituals-cult/meme-formats/serene-bowl-vs-fighters.png": {
@@ -266,7 +266,7 @@
     ]
   },
   "03-shitpost-spice/replies/bowl-only.png": {
-    "note": "Silent reply — strongest cult signal",
+    "note": "Silent reply \u2014 strongest cult signal",
     "captions": [
       "bowl stays out",
       "the whole thesis",
@@ -328,13 +328,13 @@
   "03-shitpost-spice/wojak-beggar-reaction.png": {
     "captions": [
       "alms granted",
-      "bowl’s been there",
+      "bowl\u2019s been there",
       "welcome to the parish"
     ]
   },
   "03-shitpost-spice/dont-buy-draw-bowl-mspaint.png": {
     "captions": [
-      "don’t buy\ndraw the bowl",
+      "don\u2019t buy\ndraw the bowl",
       "we take memes as alms"
     ]
   },
@@ -359,8 +359,71 @@
       "welcome to the parish",
       "parish certified",
       "empty bowl energy",
-      "no\nit’s a bowl\n\nbowl stays out",
-      "CA:\n0x8c90239Aa492BBfC4aD595A725a48f59BcAdaE76\n\nbowl stays out"
+      "no\nit\u2019s a bowl\n\nbowl stays out",
+      "CA:\n0x8c90239Aa492BBfC4aD595A725a48f59BcAdaE76\n\nbowl stays out",
+      "noted",
+      "say less",
+      "real",
+      "few",
+      "touch bowl",
+      "W"
+    ]
+  },
+  "03-shitpost-spice/replies/noted.png": {
+    "note": "Acknowledge a take without adding noise",
+    "captions": [
+      "noted",
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/say-less.png": {
+    "note": "When someone gets it / offers help / bullish correctly",
+    "captions": [
+      "say less",
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/w.png": {
+    "note": "Big W reaction",
+    "captions": [
+      "W",
+      "W\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/wen-bowl.png": {
+    "note": "Shitpost waiting / wen energy",
+    "captions": [
+      "wen bowl",
+      "wen"
+    ]
+  },
+  "03-shitpost-spice/replies/real.png": {
+    "note": "Agree hard",
+    "captions": [
+      "real",
+      "real\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/few.png": {
+    "note": "Few understand",
+    "captions": [
+      "few",
+      "few\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/touch-bowl.png": {
+    "note": "Touch grass parody",
+    "captions": [
+      "touch bowl",
+      "touch bowl\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/sir.png": {
+    "note": "Skeptical / please sir energy",
+    "captions": [
+      "sir",
+      "sir\n\nmay i have some pump",
+      "bowl stays out"
     ]
   }
 }

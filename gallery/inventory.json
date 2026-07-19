@@ -504,6 +504,13 @@
     "bytes": 928849
   },
   {
+    "path": "03-shitpost-spice/replies/few.png",
+    "name": "few.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 2575751
+  },
+  {
     "path": "03-shitpost-spice/replies/gm-clean.png",
     "name": "gm-clean.png",
     "section": "03-shitpost-spice",
@@ -532,6 +539,13 @@
     "bytes": 813351
   },
   {
+    "path": "03-shitpost-spice/replies/noted.png",
+    "name": "noted.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1008354
+  },
+  {
     "path": "03-shitpost-spice/replies/parish-nod.png",
     "name": "parish-nod.png",
     "section": "03-shitpost-spice",
@@ -539,11 +553,53 @@
     "bytes": 803673
   },
   {
+    "path": "03-shitpost-spice/replies/real.png",
+    "name": "real.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 997181
+  },
+  {
+    "path": "03-shitpost-spice/replies/say-less.png",
+    "name": "say-less.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1241058
+  },
+  {
     "path": "03-shitpost-spice/replies/sideeye.png",
     "name": "sideeye.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 1987520
+  },
+  {
+    "path": "03-shitpost-spice/replies/sir.png",
+    "name": "sir.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1063591
+  },
+  {
+    "path": "03-shitpost-spice/replies/touch-bowl.png",
+    "name": "touch-bowl.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1348312
+  },
+  {
+    "path": "03-shitpost-spice/replies/w.png",
+    "name": "w.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1280326
+  },
+  {
+    "path": "03-shitpost-spice/replies/wen-bowl.png",
+    "name": "wen-bowl.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 992200
   },
   {
     "path": "03-shitpost-spice/replies/wojak-beggar.png",
