@@ -1,14 +1,17 @@
 # Free Parish Pack — X thread (ready to paste)
 
 **Goal:** give value to followers with zero buy ask.  
-**Images:** this folder (`01`–`12`). Upload in order.  
-**Tone:** reverse shill. Membership = memes, not bags.
+**Images:** this folder (`01`–`11`). Upload in order.  
+**Tone:** parish / soft beg — **not** “draw the bowl” homework.
+
+Avoid: `don’t buy / draw the bowl` (high-friction ask).  
+Prefer: stickers, gm, alms?, tip the bowl (memes count), join the parish.
 
 ---
 
-## 1) Main post (pin-worthy for a day)
+## 1) Main post
 
-Image: `10-join-the-parish.png` *(or `01-bowl-stays-out.png` if you want quieter)*
+Image: `10-join-the-parish.png`
 
 ```
 free parish pack
@@ -76,11 +79,11 @@ Image: `08-parish-certified.png`
 (use when someone is funny)
 ```
 
-### Reply I — reverse shill
-Image: `09-dont-buy-draw.png`
+### Reply I — soft CTA (memes count as tips)
+Image: `09-tip-the-bowl.png`
 ```
-9/ don’t buy
-draw the bowl
+9/ tip the bowl
+(memes count)
 ```
 
 ### Reply J — closer
@@ -89,24 +92,17 @@ Image: `10-join-the-parish.png`
 10/ join the parish
 
 bags optional
-culture required
+vibes required
 
 bowl stays out
 ```
 
 ---
 
-## 3) Optional extras (only if the thread is hitting)
-
-### Bonus — soft CTA (still no CA)
-Image: `11-tip-the-bowl.png`
-```
-tip the bowl
-(memes count)
-```
+## 3) Optional extra
 
 ### Bonus — deadpan
-Image: `12-oh-no-anyway.png`
+Image: `11-oh-no-anyway.png`
 ```
 oh no
 anyway
@@ -116,8 +112,6 @@ anyway
 
 ## 4) If someone asks what $ALMS is / CA
 
-Reply under *their* ask (not in the main thread):
-
 ```
 a fox
 a bowl
@@ -126,7 +120,7 @@ robinhood chain
 bowl stays out
 ```
 
-Then one more reply with CA only if they ask again:
+CA only if they ask again:
 
 ```
 CA:
@@ -135,28 +129,13 @@ CA:
 
 ---
 
-## 5) How to post it (ops)
+## 5) Ops
 
-1. Post main → immediately thread A→J  
-2. Do **not** put CA in the main post  
-3. Reply to people who use the stickers with `parish certified` / `alms granted`  
-4. Later that day: QT your own pack with  
+1. Post main → thread 1→10  
+2. No CA in main post  
+3. Reward sticker users with `parish certified` / `alms granted`  
+4. Later QT:
    ```
    membership is still free
    bowl stays out
    ```
-
----
-
-## 6) Short alt main post (if you want punchier)
-
-```
-free tools for the parish
-
-gm
-please sir
-the product
-bowl stays out
-
-no buy required
-```
