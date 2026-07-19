@@ -518,11 +518,32 @@
     "bytes": 1850729
   },
   {
+    "path": "03-shitpost-spice/replies/bowl-stays-out-mspaint.png",
+    "name": "bowl-stays-out-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 881058
+  },
+  {
+    "path": "03-shitpost-spice/replies/bro.png",
+    "name": "bro.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 936451
+  },
+  {
     "path": "03-shitpost-spice/replies/checkmark-paint.png",
     "name": "checkmark-paint.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 928849
+  },
+  {
+    "path": "03-shitpost-spice/replies/considered-bowl.png",
+    "name": "considered-bowl.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 962901
   },
   {
     "path": "03-shitpost-spice/replies/cooking-mspaint.png",
@@ -560,11 +581,25 @@
     "bytes": 1268211
   },
   {
+    "path": "03-shitpost-spice/replies/dont-buy-draw-reply.png",
+    "name": "dont-buy-draw-reply.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1538005
+  },
+  {
     "path": "03-shitpost-spice/replies/few.png",
     "name": "few.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 2575751
+  },
+  {
+    "path": "03-shitpost-spice/replies/fill-it.png",
+    "name": "fill-it.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1766412
   },
   {
     "path": "03-shitpost-spice/replies/fr.png",
@@ -602,6 +637,13 @@
     "bytes": 1511673
   },
   {
+    "path": "03-shitpost-spice/replies/join-parish-mspaint.png",
+    "name": "join-parish-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1129754
+  },
+  {
     "path": "03-shitpost-spice/replies/l-mspaint.png",
     "name": "l-mspaint.png",
     "section": "03-shitpost-spice",
@@ -623,6 +665,13 @@
     "bytes": 2320285
   },
   {
+    "path": "03-shitpost-spice/replies/looking-healthy.png",
+    "name": "looking-healthy.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1418228
+  },
+  {
     "path": "03-shitpost-spice/replies/midcurve.png",
     "name": "midcurve.png",
     "section": "03-shitpost-spice",
@@ -635,6 +684,13 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 813351
+  },
+  {
+    "path": "03-shitpost-spice/replies/nfa.png",
+    "name": "nfa.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 889901
   },
   {
     "path": "03-shitpost-spice/replies/ngmi-wojak.png",
@@ -670,6 +726,20 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 803673
+  },
+  {
+    "path": "03-shitpost-spice/replies/please-sir.png",
+    "name": "please-sir.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1135136
+  },
+  {
+    "path": "03-shitpost-spice/replies/probably-nothing.png",
+    "name": "probably-nothing.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1018626
   },
   {
     "path": "03-shitpost-spice/replies/ratio-mspaint.png",
@@ -742,6 +812,13 @@
     "bytes": 894520
   },
   {
+    "path": "03-shitpost-spice/replies/tip-the-bowl.png",
+    "name": "tip-the-bowl.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 916323
+  },
+  {
     "path": "03-shitpost-spice/replies/touch-bowl.png",
     "name": "touch-bowl.png",
     "section": "03-shitpost-spice",
@@ -782,6 +859,13 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 992200
+  },
+  {
+    "path": "03-shitpost-spice/replies/wen.png",
+    "name": "wen.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1021661
   },
   {
     "path": "03-shitpost-spice/replies/wojak-beggar.png",
