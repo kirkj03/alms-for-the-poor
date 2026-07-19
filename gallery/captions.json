@@ -366,7 +366,14 @@
       "real",
       "few",
       "touch bowl",
-      "W"
+      "W",
+      "L",
+      "cooking",
+      "wagmi",
+      "ngmi",
+      "based",
+      "ratio",
+      "locked in"
     ]
   },
   "03-shitpost-spice/replies/noted.png": {
@@ -424,6 +431,62 @@
       "sir",
       "sir\n\nmay i have some pump",
       "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/l.png": {
+    "note": "L reaction (black sticker)",
+    "captions": [
+      "L",
+      "L\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/cooking.png": {
+    "note": "Let him cook",
+    "captions": [
+      "cooking",
+      "let him cook\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/wagmi.png": {
+    "note": "Bullish agree",
+    "captions": [
+      "wagmi",
+      "wagmi\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/ngmi.png": {
+    "note": "Shitpost down-bad / joke ngmi",
+    "captions": [
+      "ngmi",
+      "ngmi unless tip the bowl"
+    ]
+  },
+  "03-shitpost-spice/replies/based.png": {
+    "note": "Based reaction",
+    "captions": [
+      "based",
+      "based\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/ratio.png": {
+    "note": "Ratio energy",
+    "captions": [
+      "ratio",
+      "ratio\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/gm-dawn.png": {
+    "note": "BACKGROUND variant \u2014 soft dawn; use sparingly vs black gm-clean",
+    "captions": [
+      "gm",
+      "gm\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/locked-in-scene.png": {
+    "note": "BACKGROUND variant \u2014 lantern scene; use for stronger replies, not spam",
+    "captions": [
+      "locked in",
+      "locked in\n\nbowl stays out"
     ]
   }
 }
