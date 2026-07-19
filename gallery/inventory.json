@@ -427,6 +427,90 @@
     "bytes": 1847332
   },
   {
+    "path": "02-rituals-cult/parish-pack/01-bowl-stays-out.png",
+    "name": "01-bowl-stays-out.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 881058
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/02-gm.png",
+    "name": "02-gm.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 816337
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/03-please-sir.png",
+    "name": "03-please-sir.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 1135136
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/04-the-product.png",
+    "name": "04-the-product.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 894520
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/05-noted.png",
+    "name": "05-noted.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 1008354
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/06-w.png",
+    "name": "06-w.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 1280326
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/07-alms.png",
+    "name": "07-alms.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 999053
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/08-parish-certified.png",
+    "name": "08-parish-certified.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 803673
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/09-dont-buy-draw.png",
+    "name": "09-dont-buy-draw.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 1538005
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/10-join-the-parish.png",
+    "name": "10-join-the-parish.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 1129754
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/11-tip-the-bowl.png",
+    "name": "11-tip-the-bowl.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 916323
+  },
+  {
+    "path": "02-rituals-cult/parish-pack/12-oh-no-anyway.png",
+    "name": "12-oh-no-anyway.png",
+    "section": "02-rituals-cult",
+    "subsection": "parish-pack",
+    "bytes": 852797
+  },
+  {
     "path": "02-rituals-cult/rebrand/new-robes-same-bowl.png",
     "name": "new-robes-same-bowl.png",
     "section": "02-rituals-cult",

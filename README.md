@@ -16,6 +16,7 @@ Same styling as PFP/banner. Use for:
 - `confession-booth/`
 - `empty-bowl-countdown/`
 - `join-parish/`
+- `parish-pack/` → free sticker pack + X thread copy
 - `reverse-shill/`
 
 ### `03-shitpost-spice/` — replies & chaos only
