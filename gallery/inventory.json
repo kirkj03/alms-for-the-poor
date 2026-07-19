@@ -497,6 +497,13 @@
     "bytes": 1017185
   },
   {
+    "path": "03-shitpost-spice/replies/bet.png",
+    "name": "bet.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1187118
+  },
+  {
     "path": "03-shitpost-spice/replies/bowl-only.png",
     "name": "bowl-only.png",
     "section": "03-shitpost-spice",
@@ -518,11 +525,32 @@
     "bytes": 1123945
   },
   {
+    "path": "03-shitpost-spice/replies/cope.png",
+    "name": "cope.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1070784
+  },
+  {
+    "path": "03-shitpost-spice/replies/dignity-optional.png",
+    "name": "dignity-optional.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1268211
+  },
+  {
     "path": "03-shitpost-spice/replies/few.png",
     "name": "few.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 2575751
+  },
+  {
+    "path": "03-shitpost-spice/replies/fr.png",
+    "name": "fr.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1287735
   },
   {
     "path": "03-shitpost-spice/replies/gm-clean.png",
@@ -565,6 +593,13 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 2320285
+  },
+  {
+    "path": "03-shitpost-spice/replies/midcurve.png",
+    "name": "midcurve.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1240575
   },
   {
     "path": "03-shitpost-spice/replies/mspaint-bowl.png",
@@ -616,6 +651,13 @@
     "bytes": 1241058
   },
   {
+    "path": "03-shitpost-spice/replies/send-it.png",
+    "name": "send-it.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1121036
+  },
+  {
     "path": "03-shitpost-spice/replies/sideeye.png",
     "name": "sideeye.png",
     "section": "03-shitpost-spice",
@@ -630,11 +672,25 @@
     "bytes": 1063591
   },
   {
+    "path": "03-shitpost-spice/replies/skill-issue.png",
+    "name": "skill-issue.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1093921
+  },
+  {
     "path": "03-shitpost-spice/replies/touch-bowl.png",
     "name": "touch-bowl.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 1348312
+  },
+  {
+    "path": "03-shitpost-spice/replies/valid.png",
+    "name": "valid.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1090991
   },
   {
     "path": "03-shitpost-spice/replies/w.png",

@@ -373,7 +373,14 @@
       "ngmi",
       "based",
       "ratio",
-      "locked in"
+      "locked in",
+      "bet",
+      "fr",
+      "cope",
+      "valid",
+      "skill issue",
+      "send it",
+      "midcurve"
     ]
   },
   "03-shitpost-spice/replies/noted.png": {
@@ -487,6 +494,61 @@
     "captions": [
       "locked in",
       "locked in\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/bet.png": {
+    "note": "Confirm / I'm in",
+    "captions": [
+      "bet",
+      "bet\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/fr.png": {
+    "note": "For real agree",
+    "captions": [
+      "fr",
+      "fr fr"
+    ]
+  },
+  "03-shitpost-spice/replies/cope.png": {
+    "note": "Soft cope (not mean)",
+    "captions": [
+      "cope",
+      "cope\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/valid.png": {
+    "note": "Validate a take",
+    "captions": [
+      "valid",
+      "valid\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/skill-issue.png": {
+    "note": "Shitpost dunk",
+    "captions": [
+      "skill issue"
+    ]
+  },
+  "03-shitpost-spice/replies/send-it.png": {
+    "note": "Ape / go energy",
+    "captions": [
+      "send it",
+      "send it\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/midcurve.png": {
+    "note": "Midcurve detected",
+    "captions": [
+      "midcurve",
+      "midcurve detected"
+    ]
+  },
+  "03-shitpost-spice/replies/dignity-optional.png": {
+    "note": "Motto reply sticker",
+    "captions": [
+      "dignity optional",
+      "dignity optional\n\nbowl stays out"
     ]
   }
 }
