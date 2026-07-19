@@ -550,5 +550,68 @@
       "dignity optional",
       "dignity optional\n\nbowl stays out"
     ]
+  },
+  "03-shitpost-spice/replies/l-mspaint.png": {
+    "note": "SHITPOST L (use this for chaos replies)",
+    "captions": [
+      "L"
+    ]
+  },
+  "03-shitpost-spice/replies/cooking-mspaint.png": {
+    "note": "SHITPOST cooking",
+    "captions": [
+      "cooking",
+      "let him cook"
+    ]
+  },
+  "03-shitpost-spice/replies/ngmi-wojak.png": {
+    "note": "SHITPOST ngmi wojak",
+    "captions": [
+      "ngmi"
+    ]
+  },
+  "03-shitpost-spice/replies/ratio-mspaint.png": {
+    "note": "SHITPOST ratio",
+    "captions": [
+      "ratio"
+    ]
+  },
+  "03-shitpost-spice/replies/based-mspaint.png": {
+    "note": "SHITPOST based",
+    "captions": [
+      "based"
+    ]
+  },
+  "03-shitpost-spice/replies/wagmi-mspaint.png": {
+    "note": "SHITPOST wagmi",
+    "captions": [
+      "wagmi"
+    ]
+  },
+  "03-shitpost-spice/replies/seethe.png": {
+    "note": "SHITPOST seethe",
+    "captions": [
+      "seethe",
+      "cope seethe"
+    ]
+  },
+  "03-shitpost-spice/replies/oh-no-anyway.png": {
+    "note": "SHITPOST oh no anyway",
+    "captions": [
+      "oh no\nanyway"
+    ]
+  },
+  "03-shitpost-spice/replies/cope-mspaint.png": {
+    "note": "SHITPOST cope",
+    "captions": [
+      "cope"
+    ]
+  },
+  "03-shitpost-spice/replies/the-product.png": {
+    "note": "SHITPOST product demo (bowl)",
+    "captions": [
+      "the product",
+      "the whole thesis"
+    ]
   }
 }

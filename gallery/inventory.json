@@ -490,6 +490,13 @@
     "bytes": 999053
   },
   {
+    "path": "03-shitpost-spice/replies/based-mspaint.png",
+    "name": "based-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 887369
+  },
+  {
     "path": "03-shitpost-spice/replies/based.png",
     "name": "based.png",
     "section": "03-shitpost-spice",
@@ -518,11 +525,25 @@
     "bytes": 928849
   },
   {
+    "path": "03-shitpost-spice/replies/cooking-mspaint.png",
+    "name": "cooking-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1481216
+  },
+  {
     "path": "03-shitpost-spice/replies/cooking.png",
     "name": "cooking.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 1123945
+  },
+  {
+    "path": "03-shitpost-spice/replies/cope-mspaint.png",
+    "name": "cope-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 938098
   },
   {
     "path": "03-shitpost-spice/replies/cope.png",
@@ -581,6 +602,13 @@
     "bytes": 1511673
   },
   {
+    "path": "03-shitpost-spice/replies/l-mspaint.png",
+    "name": "l-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 995450
+  },
+  {
     "path": "03-shitpost-spice/replies/l.png",
     "name": "l.png",
     "section": "03-shitpost-spice",
@@ -609,6 +637,13 @@
     "bytes": 813351
   },
   {
+    "path": "03-shitpost-spice/replies/ngmi-wojak.png",
+    "name": "ngmi-wojak.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1382382
+  },
+  {
     "path": "03-shitpost-spice/replies/ngmi.png",
     "name": "ngmi.png",
     "section": "03-shitpost-spice",
@@ -623,11 +658,25 @@
     "bytes": 1008354
   },
   {
+    "path": "03-shitpost-spice/replies/oh-no-anyway.png",
+    "name": "oh-no-anyway.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 852797
+  },
+  {
     "path": "03-shitpost-spice/replies/parish-nod.png",
     "name": "parish-nod.png",
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 803673
+  },
+  {
+    "path": "03-shitpost-spice/replies/ratio-mspaint.png",
+    "name": "ratio-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 841758
   },
   {
     "path": "03-shitpost-spice/replies/ratio.png",
@@ -649,6 +698,13 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 1241058
+  },
+  {
+    "path": "03-shitpost-spice/replies/seethe.png",
+    "name": "seethe.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 1048415
   },
   {
     "path": "03-shitpost-spice/replies/send-it.png",
@@ -679,6 +735,13 @@
     "bytes": 1093921
   },
   {
+    "path": "03-shitpost-spice/replies/the-product.png",
+    "name": "the-product.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 894520
+  },
+  {
     "path": "03-shitpost-spice/replies/touch-bowl.png",
     "name": "touch-bowl.png",
     "section": "03-shitpost-spice",
@@ -698,6 +761,13 @@
     "section": "03-shitpost-spice",
     "subsection": "replies",
     "bytes": 1280326
+  },
+  {
+    "path": "03-shitpost-spice/replies/wagmi-mspaint.png",
+    "name": "wagmi-mspaint.png",
+    "section": "03-shitpost-spice",
+    "subsection": "replies",
+    "bytes": 2437306
   },
   {
     "path": "03-shitpost-spice/replies/wagmi.png",
