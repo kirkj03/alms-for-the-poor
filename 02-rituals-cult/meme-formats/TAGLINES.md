@@ -79,17 +79,17 @@ Alt:
 correct answer: draw the bowl
 ```
 
-## join-the-parish.png (`../join-parish/`)
+## join-the-parish-scene.png (`../join-parish/`) — preferred (no text on image)
 ```
 join the parish
+plenty of bowls
 
 bowl stays out
 $ALMS
 ```
 Alt:
 ```
-plenty of bowls
-pick one up
+join the parish
 
 bowl stays out
 $ALMS
@@ -101,3 +101,13 @@ dignity optional
 
 bowl stays out
 ```
+
+## join-the-parish-scene-captioned.png
+Text already on image (`join the parish`). Caption:
+```
+bowl stays out
+$ALMS
+```
+
+## join-the-parish.png (older character-on-black — gothic font, skip for feed)
+Keep as archive alt only.
