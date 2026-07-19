@@ -15,6 +15,7 @@ Same styling as PFP/banner. Use for:
 - `alms-hours/`
 - `confession-booth/`
 - `empty-bowl-countdown/`
+- `join-parish/`
 - `reverse-shill/`
 
 ### `03-shitpost-spice/` — replies & chaos only
@@ -28,3 +29,18 @@ Pixar/cinematic/beggar studies. Reference only unless a rare lore post.
 2. `01-identity/primary/banner-3x1-cult.png`
 3. Ritual images from `02-rituals-cult/`
 4. Spice from `03-shitpost-spice/` when replying
+
+## Asset canvas (browse + copy captions)
+
+From the repo root:
+
+```bash
+python3 -m http.server 8765
+```
+
+Then open [http://localhost:8765/gallery/](http://localhost:8765/gallery/)
+
+- Filter by folder / “ship” / replies
+- Click image to enlarge
+- One-click copy for paths + taglines
+- Caption map lives in `gallery/captions.json` (edit anytime)
