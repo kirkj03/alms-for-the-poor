@@ -1,20 +1,20 @@
 {
   "01-identity/primary/pfp-cult-sticker.png": {
-    "note": "Canon PFP — ship this",
+    "note": "Canon PFP \u2014 ship this",
     "captions": [
-      "bowl stays out\ndignity optional\nalms for the poor · robinhood chain"
+      "bowl stays out\ndignity optional\nalms for the poor \u00b7 robinhood chain"
     ]
   },
   "01-identity/primary/banner-3x1-cult.png": {
-    "note": "Canon 3:1 banner — ship with PFP",
+    "note": "Canon 3:1 banner \u2014 ship with PFP",
     "captions": []
   },
   "02-rituals-cult/reverse-shill/dont-buy-draw-the-bowl.png": {
     "note": "Pin / reverse shill",
     "captions": [
       "alms for the poor\nbowl stays out\ndignity optional\n$ALMS",
-      "don’t buy\ndraw the bowl\n\nbowl stays out",
-      "we don’t need volume\nwe need memes\n\nalms for the poor"
+      "don\u2019t buy\ndraw the bowl\n\nbowl stays out",
+      "we don\u2019t need volume\nwe need memes\n\nalms for the poor"
     ]
   },
   "02-rituals-cult/rebrand/new-robes-same-bowl.png": {
@@ -82,7 +82,7 @@
     ]
   },
   "02-rituals-cult/join-parish/join-the-parish.png": {
-    "note": "Older gothic-font card — skip for feed",
+    "note": "Older gothic-font card \u2014 skip for feed",
     "captions": [
       "join the parish\n\nbowl stays out\n$ALMS"
     ]
@@ -161,7 +161,7 @@
     ]
   },
   "02-rituals-cult/meme-formats/trade-offer-v3-alt.png": {
-    "note": "Sides flipped — skip",
+    "note": "Sides flipped \u2014 skip",
     "captions": []
   },
   "02-rituals-cult/meme-formats/this-is-fine.png": {
@@ -172,7 +172,7 @@
   },
   "02-rituals-cult/meme-formats/they-dont-know-bus.png": {
     "captions": [
-      "they don’t know\nthe bowl stays out\n\n$ALMS",
+      "they don\u2019t know\nthe bowl stays out\n\n$ALMS",
       "silent parish supremacy"
     ]
   },
@@ -199,7 +199,7 @@
     "captions": [
       "let them cook\n\nbowl stays out\n$ALMS",
       "king of the hill is loud\nthe bowl is quiet\n\nbowl stays out\n$ALMS",
-      "everyone fighting for #1\nwe’re just asking for alms\n\n$ALMS"
+      "everyone fighting for #1\nwe\u2019re just asking for alms\n\n$ALMS"
     ]
   },
   "02-rituals-cult/meme-formats/serene-bowl-vs-fighters.png": {
@@ -266,7 +266,7 @@
     ]
   },
   "03-shitpost-spice/replies/bowl-only.png": {
-    "note": "Silent reply — strongest cult signal",
+    "note": "Silent reply \u2014 strongest cult signal",
     "captions": [
       "bowl stays out",
       "the whole thesis",
@@ -328,13 +328,13 @@
   "03-shitpost-spice/wojak-beggar-reaction.png": {
     "captions": [
       "alms granted",
-      "bowl’s been there",
+      "bowl\u2019s been there",
       "welcome to the parish"
     ]
   },
   "03-shitpost-spice/dont-buy-draw-bowl-mspaint.png": {
     "captions": [
-      "don’t buy\ndraw the bowl",
+      "don\u2019t buy\ndraw the bowl",
       "we take memes as alms"
     ]
   },
@@ -359,8 +359,386 @@
       "welcome to the parish",
       "parish certified",
       "empty bowl energy",
-      "no\nit’s a bowl\n\nbowl stays out",
-      "CA:\n0x8c90239Aa492BBfC4aD595A725a48f59BcAdaE76\n\nbowl stays out"
+      "no\nit\u2019s a bowl\n\nbowl stays out",
+      "CA:\n0x8c90239Aa492BBfC4aD595A725a48f59BcAdaE76\n\nbowl stays out",
+      "noted",
+      "say less",
+      "real",
+      "few",
+      "touch bowl",
+      "W",
+      "L",
+      "cooking",
+      "wagmi",
+      "ngmi",
+      "based",
+      "ratio",
+      "locked in",
+      "bet",
+      "fr",
+      "cope",
+      "valid",
+      "skill issue",
+      "send it",
+      "midcurve"
     ]
+  },
+  "03-shitpost-spice/replies/noted.png": {
+    "note": "Acknowledge a take without adding noise",
+    "captions": [
+      "noted",
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/say-less.png": {
+    "note": "When someone gets it / offers help / bullish correctly",
+    "captions": [
+      "say less",
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/w.png": {
+    "note": "Big W reaction",
+    "captions": [
+      "W",
+      "W\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/wen-bowl.png": {
+    "note": "Shitpost waiting / wen energy",
+    "captions": [
+      "wen bowl",
+      "wen"
+    ]
+  },
+  "03-shitpost-spice/replies/real.png": {
+    "note": "Agree hard",
+    "captions": [
+      "real",
+      "real\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/few.png": {
+    "note": "Few understand",
+    "captions": [
+      "few",
+      "few\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/touch-bowl.png": {
+    "note": "Touch grass parody",
+    "captions": [
+      "touch bowl",
+      "touch bowl\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/sir.png": {
+    "note": "Skeptical / please sir energy",
+    "captions": [
+      "sir",
+      "sir\n\nmay i have some pump",
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/l.png": {
+    "note": "L reaction (black sticker)",
+    "captions": [
+      "L",
+      "L\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/cooking.png": {
+    "note": "Let him cook",
+    "captions": [
+      "cooking",
+      "let him cook\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/wagmi.png": {
+    "note": "Bullish agree",
+    "captions": [
+      "wagmi",
+      "wagmi\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/ngmi.png": {
+    "note": "Shitpost down-bad / joke ngmi",
+    "captions": [
+      "ngmi",
+      "ngmi unless tip the bowl"
+    ]
+  },
+  "03-shitpost-spice/replies/based.png": {
+    "note": "Based reaction",
+    "captions": [
+      "based",
+      "based\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/ratio.png": {
+    "note": "Ratio energy",
+    "captions": [
+      "ratio",
+      "ratio\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/gm-dawn.png": {
+    "note": "BACKGROUND variant \u2014 soft dawn; use sparingly vs black gm-clean",
+    "captions": [
+      "gm",
+      "gm\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/locked-in-scene.png": {
+    "note": "BACKGROUND variant \u2014 lantern scene; use for stronger replies, not spam",
+    "captions": [
+      "locked in",
+      "locked in\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/bet.png": {
+    "note": "Confirm / I'm in",
+    "captions": [
+      "bet",
+      "bet\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/fr.png": {
+    "note": "For real agree",
+    "captions": [
+      "fr",
+      "fr fr"
+    ]
+  },
+  "03-shitpost-spice/replies/cope.png": {
+    "note": "Soft cope (not mean)",
+    "captions": [
+      "cope",
+      "cope\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/valid.png": {
+    "note": "Validate a take",
+    "captions": [
+      "valid",
+      "valid\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/skill-issue.png": {
+    "note": "Shitpost dunk",
+    "captions": [
+      "skill issue"
+    ]
+  },
+  "03-shitpost-spice/replies/send-it.png": {
+    "note": "Ape / go energy",
+    "captions": [
+      "send it",
+      "send it\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/midcurve.png": {
+    "note": "Midcurve detected",
+    "captions": [
+      "midcurve",
+      "midcurve detected"
+    ]
+  },
+  "03-shitpost-spice/replies/dignity-optional.png": {
+    "note": "Motto reply sticker",
+    "captions": [
+      "dignity optional",
+      "dignity optional\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/l-mspaint.png": {
+    "note": "SHITPOST L (use this for chaos replies)",
+    "captions": [
+      "L"
+    ]
+  },
+  "03-shitpost-spice/replies/cooking-mspaint.png": {
+    "note": "SHITPOST cooking",
+    "captions": [
+      "cooking",
+      "let him cook"
+    ]
+  },
+  "03-shitpost-spice/replies/ngmi-wojak.png": {
+    "note": "SHITPOST ngmi wojak",
+    "captions": [
+      "ngmi"
+    ]
+  },
+  "03-shitpost-spice/replies/ratio-mspaint.png": {
+    "note": "SHITPOST ratio",
+    "captions": [
+      "ratio"
+    ]
+  },
+  "03-shitpost-spice/replies/based-mspaint.png": {
+    "note": "SHITPOST based",
+    "captions": [
+      "based"
+    ]
+  },
+  "03-shitpost-spice/replies/wagmi-mspaint.png": {
+    "note": "SHITPOST wagmi",
+    "captions": [
+      "wagmi"
+    ]
+  },
+  "03-shitpost-spice/replies/seethe.png": {
+    "note": "SHITPOST seethe",
+    "captions": [
+      "seethe",
+      "cope seethe"
+    ]
+  },
+  "03-shitpost-spice/replies/oh-no-anyway.png": {
+    "note": "SHITPOST oh no anyway",
+    "captions": [
+      "oh no\nanyway"
+    ]
+  },
+  "03-shitpost-spice/replies/cope-mspaint.png": {
+    "note": "SHITPOST cope",
+    "captions": [
+      "cope"
+    ]
+  },
+  "03-shitpost-spice/replies/the-product.png": {
+    "note": "SHITPOST product demo (bowl)",
+    "captions": [
+      "the product",
+      "the whole thesis"
+    ]
+  },
+  "03-shitpost-spice/replies/wen.png": {
+    "note": "SHITPOST wen",
+    "captions": [
+      "wen",
+      "wen bowl"
+    ]
+  },
+  "03-shitpost-spice/replies/bro.png": {
+    "note": "SHITPOST bro",
+    "captions": [
+      "bro"
+    ]
+  },
+  "03-shitpost-spice/replies/nfa.png": {
+    "note": "SHITPOST NFA disclaimer joke",
+    "captions": [
+      "not financial advice",
+      "nfa\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/tip-the-bowl.png": {
+    "note": "SHITPOST soft shill",
+    "captions": [
+      "tip the bowl",
+      "tip the bowl\n\n$ALMS"
+    ]
+  },
+  "03-shitpost-spice/replies/probably-nothing.png": {
+    "note": "SHITPOST probably nothing",
+    "captions": [
+      "probably nothing"
+    ]
+  },
+  "03-shitpost-spice/replies/bowl-stays-out-mspaint.png": {
+    "note": "SHITPOST motto",
+    "captions": [
+      "bowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/please-sir.png": {
+    "note": "SHITPOST classic alms bit / soft shill",
+    "captions": [
+      "please sir",
+      "please sir\nmay i have some pump"
+    ]
+  },
+  "03-shitpost-spice/replies/considered-bowl.png": {
+    "note": "SHITPOST soft shill",
+    "captions": [
+      "have you considered the bowl"
+    ]
+  },
+  "03-shitpost-spice/replies/join-parish-mspaint.png": {
+    "note": "SHITPOST invite / soft shill",
+    "captions": [
+      "join the parish",
+      "join the parish\n\nbowl stays out"
+    ]
+  },
+  "03-shitpost-spice/replies/fill-it.png": {
+    "note": "SHITPOST soft shill",
+    "captions": [
+      "fill it",
+      "fill it\n\n$ALMS"
+    ]
+  },
+  "03-shitpost-spice/replies/looking-healthy.png": {
+    "note": "SHITPOST ironic chart",
+    "captions": [
+      "looking healthy"
+    ]
+  },
+  "03-shitpost-spice/replies/dont-buy-draw-reply.png": {
+    "note": "SHITPOST reverse shill reply",
+    "captions": [
+      "dont buy\ndraw bowl",
+      "don\u2019t buy\ndraw the bowl"
+    ]
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #1 motto": {
+    "note": "Free parish pack #1 motto",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #2 gm": {
+    "note": "Free parish pack #2 gm",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #3": {
+    "note": "Free parish pack #3",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #4": {
+    "note": "Free parish pack #4",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #5": {
+    "note": "Free parish pack #5",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #6": {
+    "note": "Free parish pack #6",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #7": {
+    "note": "Free parish pack #7",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #8": {
+    "note": "Free parish pack #8",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #9 reverse shill": {
+    "note": "Free parish pack #9 reverse shill",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack #10 / main post image": {
+    "note": "Free parish pack #10 / main post image",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack bonus soft CTA": {
+    "note": "Free parish pack bonus soft CTA",
+    "captions": []
+  },
+  "02-rituals-cult/parish-pack/Free parish pack bonus": {
+    "note": "Free parish pack bonus",
+    "captions": []
   }
 }

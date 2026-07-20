@@ -16,6 +16,7 @@ Same styling as PFP/banner. Use for:
 - `confession-booth/`
 - `empty-bowl-countdown/`
 - `join-parish/`
+- `parish-pack/` → free sticker pack + X thread copy
 - `reverse-shill/`
 
 ### `03-shitpost-spice/` — replies & chaos only
@@ -32,7 +33,12 @@ Pixar/cinematic/beggar studies. Reference only unless a rare lore post.
 
 ## Asset canvas (browse + copy captions)
 
-From the repo root:
+**Live (GitHub Pages):** [https://kirkj03.github.io/alms-for-the-poor/](https://kirkj03.github.io/alms-for-the-poor/)  
+*(requires Pages enabled — see below)*
+
+**Local static file:** open `gallery/index.html` in a browser.
+
+**Local server:**
 
 ```bash
 python3 -m http.server 8765
@@ -44,3 +50,10 @@ Then open [http://localhost:8765/gallery/](http://localhost:8765/gallery/)
 - Click image to enlarge
 - One-click copy for paths + taglines
 - Caption map lives in `gallery/captions.json` (edit anytime)
+
+### Enable GitHub Pages (one-time)
+
+1. Repo must be **public** (free Pages) *or* you need GitHub Pro/Team for private Pages.
+2. GitHub → **Settings → Pages**
+3. Build and deployment → Source: **GitHub Actions**
+4. Merge to `main` (or run the `Deploy GitHub Pages` workflow). Site publishes to the URL above.
